@@ -4,7 +4,6 @@ import { QUERY_THOUGHTS } from '../utils/queries';
 import ThoughtList from '../components/ThoughtList';
 
 const Home = () => {
-  
   // use useQuery hook to make query request
   const { loading, data } = useQuery(QUERY_THOUGHTS);
 
